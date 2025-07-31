@@ -98,8 +98,18 @@ table.inspection {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 10px;
+    table-layout: fixed; /* Controla el ancho fijo */
 }
 
+table.inspection th:first-child,
+table.inspection td:first-child {
+    width: 80%; /* Columna de descripción más ancha */
+}
+
+table.inspection th:last-child,
+table.inspection td:last-child {
+    width: 20%; /* Columna Evaluación fija */
+}
 table.inspection th,
 table.inspection td {
     border: 1px solid #000;
