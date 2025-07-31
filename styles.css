@@ -155,7 +155,7 @@ table.inspection td:first-child {
 .approval span {
     font-weight: bold;
     display: flex;
-    align-items: center;
+    align-items: left;
 }
 
 .approval .box {
