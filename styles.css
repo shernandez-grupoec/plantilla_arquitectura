@@ -202,14 +202,24 @@ table.inspection td:first-child {
 }
 
 
-/* PRINT */
 @media print {
+    @page {
+        size: A4; /* Fuerza tamaño A4 */
+        margin: 10mm; /* Márgenes ajustados */
+    }
+
+    body {
+        zoom: 80%; /* Escala todo el contenido para que quepa en 1 hoja */
+    }
+
     .inspection,
     .instrumentos,
     .sign-section {
         page-break-inside: avoid;
     }
+
     .container {
         border: none;
     }
 }
+
