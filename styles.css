@@ -209,7 +209,7 @@ table.inspection td:first-child {
     }
 
     body {
-        zoom: 70%; /* Escala todo el contenido para que quepa en 1 hoja */
+        zoom: 50%; /* Escala todo el contenido para que quepa en 1 hoja */
     }
 
     .inspection,
