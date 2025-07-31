@@ -179,6 +179,10 @@ table.inspection td:first-child {
     text-align: left; /* Cambiado de center a left */
 }
 
+.sign-section tr:last-child td {
+    height: 60px; /* espacio para la firma */
+    vertical-align: bottom;
+}
 
 /* PRINT */
 @media print {
