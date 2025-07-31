@@ -189,16 +189,18 @@ table.inspection td:first-child {
     text-align: left; /* Cambiado de center a left */
 }
 
-.sign-section tr:nth-last-child(2) td {
-    height: 60px; /* espacio para firma */
+.sign-section th {
+    background: #f7cfa2;
+    border: 1px solid #000;
+    padding: 6px;
+    text-align: center;
+}
+
+.sign-section tr:last-child td {
+    height: 60px; /* espacio para la firma */
     vertical-align: bottom;
 }
 
-.sign-section th {
-    background: #f7cfa2;
-    font-weight: bold;
-    text-align: center;
-}
 
 /* PRINT */
 @media print {
