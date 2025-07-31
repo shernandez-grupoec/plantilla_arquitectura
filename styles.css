@@ -194,6 +194,12 @@ table.inspection td:first-child {
     vertical-align: bottom;
 }
 
+.sign-section th {
+    background: #f7cfa2;
+    font-weight: bold;
+    text-align: center;
+}
+
 /* PRINT */
 @media print {
     .inspection,
