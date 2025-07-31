@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    font-size: 12px;
+    font-size: 10px;
     margin: 0;
     padding: 0;
 }
@@ -44,7 +44,7 @@ body {
 }
 
 .header-right {
-    font-size: 11px;
+    font-size: 10px;
 }
 
 .header-right table {
@@ -203,17 +203,23 @@ table.inspection td:first-child {
 
 
 @media print {
+    @page {
+        size: A4; /* Fuerza tamaño A4 */
+        margin: 10mm; /* Márgenes ajustados */
+    }
+
     body {
-        font-size: 9px; /* fuente más pequeña */
+        zoom: 70%; /* Escala todo el contenido para que quepa en 1 hoja */
     }
-    table.inspection td,
-    table.inspection th,
-    .instrumentos td,
-    .instrumentos th,
-    .sign-section td {
-        padding: 2px; /* menos espacio interno */
+
+    .inspection,
+    .instrumentos,
+    .sign-section {
+        page-break-inside: avoid;
     }
-    .header-center h2 {
-        font-size: 14px; /* título más compacto */
+
+    .container {
+        border: none;
     }
 }
+
