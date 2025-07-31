@@ -9,102 +9,97 @@
 <body>
 
 <div class="container">
-    <h2>PROTOCOLO INSPECCIÓN<br>ARQUITECTURA</h2>
 
-    <!-- Cabecera -->
-    <table class="header">
-        <tr>
-            <td>Nombre del Proyecto</td><td></td>
-            <td>Código SGI</td><td>R-CC-PH-11</td>
-        </tr>
-        <tr>
-            <td>Cliente</td><td></td>
-            <td>Revisión</td><td>0</td>
-        </tr>
-        <tr>
-            <td>Centro de Costo</td><td></td>
-            <td>Fecha</td><td>26-06-2025</td>
-        </tr>
-        <tr>
-            <td>Orden de Compra</td><td></td>
-            <td>N° de Hoja</td><td>1 de 1</td>
-        </tr>
-        <tr>
-            <td>Plano</td><td></td>
-            <td>N° de Registro</td><td></td>
-        </tr>
-        <tr>
-            <td>Revisión</td><td></td>
-            <td>Tag</td><td></td>
-        </tr>
-        <tr>
-            <td>Fecha</td><td></td>
-            <td>Tipo de Fabricación</td><td></td>
-        </tr>
-        <tr>
-            <td></td><td></td>
-            <td>Sistema</td><td></td>
-        </tr>
-        <tr>
-            <td></td><td></td>
-            <td>Sub sistema</td><td></td>
-        </tr>
-        <tr>
-            <td></td><td></td>
-            <td>Área</td><td></td>
-        </tr>
-        <tr>
-            <td></td><td></td>
-            <td>Responsable</td><td></td>
-        </tr>
+    <!-- === HEADER 3 COLUMNS === -->
+    <div class="header-top">
+        <!-- Logo -->
+        <div class="header-left">
+            <img src="logo.png" alt="Logo Empresa">
+        </div>
+        <!-- Title -->
+        <div class="header-center">
+            <h2>PROTOCOLO INSPECCIÓN<br>ARQUITECTURA</h2>
+        </div>
+        <!-- Info -->
+        <div class="header-right">
+            <table>
+                <tr><td>Código SGI</td><td>R-CC-PH-11</td></tr>
+                <tr><td>Revisión</td><td>0</td></tr>
+                <tr><td>Fecha</td><td>26-06-2025</td></tr>
+                <tr><td>N° Hoja</td><td>1 de 1</td></tr>
+                <tr><td>N° Registro</td><td></td></tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- === HEADER DETAIL === -->
+    <table class="header-detail">
+        <tr><td>Nombre del Proyecto</td><td></td><td>Tag</td><td></td></tr>
+        <tr><td>Cliente</td><td></td><td>Tipo de Fabricación</td><td></td></tr>
+        <tr><td>Centro de Costo</td><td></td><td>Sistema</td><td></td></tr>
+        <tr><td>Orden de Compra</td><td></td><td>Sub Sistema</td><td></td></tr>
+        <tr><td>Plano</td><td></td><td>Área</td><td></td></tr>
+        <tr><td>Revisión</td><td></td><td>Responsable</td><td></td></tr>
+        <tr><td>Fecha</td><td></td><td></td><td></td></tr>
     </table>
 
-    <!-- Puntos de inspección -->
+    <!-- === PUNTOS DE INSPECCIÓN === -->
     <div class="section-title">PUNTOS DE INSPECCIÓN</div>
+
+    <!-- Ejemplo sección PISOS -->
     <table class="inspection">
         <tr>
-            <th>1.- PISOS</th>
-            <th>C</th>
-            <th>N/A</th>
-            <th>N/A</th>
+            <th colspan="4">1.- PISOS</th>
         </tr>
         <tr>
-            <td>LIMPIEZA DE LA SUPERFICIE</td>
-            <td></td><td></td><td></td>
+            <th>Punto</th><th>C</th><th>N/C</th><th>N/A</th>
         </tr>
-        <tr>
-            <td>TRAZADO</td>
-            <td></td><td></td><td></td>
-        </tr>
-        <!-- Agrega más filas según el ejemplo -->
+        <tr><td>LIMPIEZA DE LA SUPERFICIE</td><td></td><td></td><td></td></tr>
+        <tr><td>TRAZADO</td><td></td><td></td><td></td></tr>
+        <tr><td>MATERIAL CONCORDANTE CON ESPECIFICACIÓN</td><td></td><td></td><td></td></tr>
+        <tr><td>TIPO DE FIJACIÓN</td><td></td><td></td><td></td></tr>
+        <tr><td>INSTALACIONES PRE-EMBUTIDAS (ELÉCTRICAS, AGUA POTABLE, ALCANTARILLADO)</td><td></td><td></td><td></td></tr>
     </table>
 
-    <!-- Criterios -->
-    <div class="criteria">CRITERIOS DE ACEPTACIÓN</div>
-    <p>1.- Especificaciones Técnicas (EE.TT)<br>
-       2.- Ley General de Urbanismo y Construcción (LGUC)<br>
-       3.- Ordenanza General de Urbanismo y Construcción (OGUC)</p>
+    <!-- Repite el bloque anterior para TABIQUERÍA, REVESTIMIENTO, AISLACIÓN, CUBIERTA -->
 
-    <!-- Aprobación -->
+    <!-- === CRITERIOS DE ACEPTACIÓN === -->
+    <div class="criteria">CRITERIOS DE ACEPTACIÓN</div>
+    <p>
+        1.- Especificaciones Técnicas (EE.TT)<br>
+        2.- Ley General de Urbanismo y Construcción (LGUC)<br>
+        3.- Ordenanza General de Urbanismo y Construcción (OGUC)
+    </p>
+
+    <!-- === INSTRUMENTOS DE MEDICIÓN === -->
+    <table class="instrumentos">
+        <tr>
+            <th>Tipo de Instrumento</th>
+            <th>Certificado de calibración</th>
+            <th>Certificado de verificación</th>
+        </tr>
+        <tr>
+            <td>Instrumento destinado para validar las pruebas, ensayos y test</td>
+            <td>Laboratorio de Calibración</td>
+            <td>Registro de verificación de instrumentos con patrón calibrado</td>
+        </tr>
+    </table>
+
+    <!-- === CONTROL === -->
     <div class="approval">
         <span>APROBADO <div class="box"></div></span>
         <span>RECHAZADO <div class="box"></div></span>
     </div>
 
-    <!-- Firmas -->
+    <!-- === FIRMAS === -->
     <table class="sign-section">
-        <tr>
-            <td>Nombre</td><td>Nombre</td><td>Nombre</td>
-        </tr>
-        <tr>
-            <td>Fecha</td><td>Fecha</td><td>Fecha</td>
-        </tr>
-        <tr>
-            <td>Firma</td><td>Firma</td><td>Firma</td>
-        </tr>
+        <tr><td>Nombre</td><td>Nombre</td><td>Nombre</td></tr>
+        <tr><td>Fecha</td><td>Fecha</td><td>Fecha</td></tr>
+        <tr><td>Firma</td><td>Firma</td><td>Firma</td></tr>
     </table>
 
 </div>
 
 </body>
 </html>
+
