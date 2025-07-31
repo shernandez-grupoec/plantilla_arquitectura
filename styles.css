@@ -176,8 +176,9 @@ table.inspection td:first-child {
 .sign-section td {
     border: 1px solid #000;
     padding: 6px;
-    text-align: left;
+    text-align: left; /* Cambiado de center a left */
 }
+
 
 /* PRINT */
 @media print {
