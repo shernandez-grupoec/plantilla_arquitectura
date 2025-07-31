@@ -169,13 +169,13 @@ table.inspection td:first-child {
 .sign-section {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 10px;
+    margin-top: 13px;
 }
 
 .sign-section td {
     border: 1px solid #000;
     padding: 6px;
-    text-align: center;
+    text-align: left;
 }
 
 /* PRINT */
