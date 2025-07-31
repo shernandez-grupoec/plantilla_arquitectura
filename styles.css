@@ -1,0 +1,102 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+    body {
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        width: 90%;
+        margin: 20px auto;
+        border: 2px solid #000;
+        padding: 10px;
+    }
+    h2 {
+        text-align: center;
+        margin: 0;
+        font-size: 16px;
+    }
+    .header, .footer {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+    }
+    .header td, .footer td {
+        border: 1px solid #000;
+        padding: 4px;
+    }
+    .header td:first-child {
+        width: 25%;
+        font-weight: bold;
+        background: #f7cfa2;
+    }
+    .header td:nth-child(2) {
+        width: 25%;
+    }
+    .header td:nth-child(3) {
+        width: 25%;
+        font-weight: bold;
+        background: #f7cfa2;
+    }
+    .header td:nth-child(4) {
+        width: 25%;
+    }
+    .section-title {
+        background: #f7cfa2;
+        font-weight: bold;
+        text-align: left;
+        padding: 6px;
+        border: 1px solid #000;
+        margin-top: 10px;
+    }
+    table.inspection {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 10px;
+    }
+    table.inspection th, table.inspection td {
+        border: 1px solid #000;
+        padding: 5px;
+        text-align: center;
+    }
+    table.inspection th {
+        background: #f7cfa2;
+        font-weight: bold;
+    }
+    .criteria {
+        border: 1px solid #000;
+        padding: 5px;
+        margin-top: 10px;
+        background: #f7cfa2;
+        font-weight: bold;
+    }
+    .approval {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        padding: 10px;
+        border-top: 2px solid #000;
+    }
+    .approval .box {
+        border: 1px solid #000;
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        margin-left: 10px;
+    }
+    .sign-section {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+    }
+    .sign-section td {
+        border: 1px solid #000;
+        padding: 6px;
+        text-align: center;
+    }
