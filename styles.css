@@ -221,8 +221,8 @@ table.inspection td:first-child {
 }
 
 .photo-item img {
-    width: 250px; /* Tamaño fijo */
-    height: 180px; /* Tamaño fijo */
+    width: 375px; /* Tamaño fijo */
+    height: 270px; /* Tamaño fijo */
     object-fit: cover; /* Ajusta la imagen sin deformarla */
     border: 1px solid #ccc;
 }
