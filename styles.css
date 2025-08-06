@@ -201,7 +201,18 @@ table.inspection td:first-child {
     vertical-align: bottom;
 }
 
-.photo-container {
+/* Fotos */
+    .photo-section {
+        margin-top: 15px;
+    }
+
+    .photo-section h3 {
+        text-align: left;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .photo-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center; /* Centra las filas */
@@ -229,8 +240,6 @@ table.inspection td:first-child {
     font-size: 12px;
     margin-top: 5px;
 }
-
-
 @media print {
     @page {
         size: A4; /* Fuerza tamaño A4 */
