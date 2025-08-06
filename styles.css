@@ -201,29 +201,27 @@ table.inspection td:first-child {
     vertical-align: bottom;
 }
 
-.photo-section {
-    margin-top: 15px;
-}
-
 .photo-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    justify-content: center; /* Centra las filas */
+    gap: 10px; /* Espacio entre elementos */
 }
 
 .photo-item {
-    width: 48%; /* Dos por fila */
+    width: 375px;  /* Tamaño fijo */
     text-align: center;
-    page-break-inside: avoid; /* No cortar entre páginas */
+    page-break-inside: avoid; /* Evita cortar entre páginas */
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .photo-item img {
-    width: 375px; /* Tamaño fijo */
+    width: 375px;  /* Tamaño fijo */
     height: 270px; /* Tamaño fijo */
-    object-fit: cover; /* Ajusta la imagen sin deformarla */
+    object-fit: cover; /* Mantiene proporciones */
     border: 1px solid #ccc;
 }
 
@@ -231,7 +229,6 @@ table.inspection td:first-child {
     font-size: 12px;
     margin-top: 5px;
 }
-
 
 
 @media print {
