@@ -140,7 +140,6 @@ table.prevencion {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 10px;
-    table-layout: fixed; /* Controla el ancho fijo */
 }
 
 table.prevencion th:first-child,
@@ -165,16 +164,7 @@ table.prevencion th {
 }
 
 table.prevencion td:first-child {
-    text-align: left;
-}
-
-/* CRITERIA */
-.criteria {
-    border: 1px solid #000;
-    padding: 6px;
-    background: #f7cfa2;
-    font-weight: bold;
-    margin-top: 10px;
+    text-align: center;
 }
 
 /* INSTRUMENTOS */
@@ -301,5 +291,6 @@ table.prevencion td:first-child {
         border: none;
     }
 }
+
 
 
