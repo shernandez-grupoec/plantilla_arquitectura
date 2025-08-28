@@ -140,17 +140,7 @@ table.prevencion {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 10px;
-}
 
-table.prevencion th:first-child,
-table.prevencion td:first-child {
-    width: 80%; /* Columna de descripción más ancha */
-}
-
-table.prevencion th:last-child,
-table.prevencion td:last-child {
-    width: 20%; /* Columna Evaluación fija */
-}
 table.prevencion th,
 table.prevencion td {
     border: 1px solid #000;
@@ -291,6 +281,7 @@ table.prevencion td:first-child {
         border: none;
     }
 }
+
 
 
 
