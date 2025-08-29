@@ -110,14 +110,11 @@ table.inspection th:last-child,
 table.inspection td:last-child {
     width: 20%; /* Columna Evaluación fija */
 }
-table.prevention th,
-table.prevention td {
+table.inspection th,
+table.inspection td {
     border: 1px solid #000;
     padding: 5px;
     text-align: center;
-    vertical-align: top;       /* alinea arriba si hay varias líneas */
-    word-wrap: break-word;     /* permite cortar palabras largas */
-    white-space: normal;       /* el texto hace salto de línea */
 }
 
 table.inspection th {
@@ -143,6 +140,9 @@ table.prevention td {
     border: 1px solid #000;
     padding: 5px;
     text-align: center;
+    vertical-align: top;       /* alinea arriba si hay varias líneas */
+    word-wrap: break-word;     /* permite cortar palabras largas */
+    white-space: normal;       /* el texto hace salto de línea */
 }
 
 table.prevention th {
@@ -287,6 +287,7 @@ table.prevention td:first-child {
         border: none;
     }
 }
+
 
 
 
