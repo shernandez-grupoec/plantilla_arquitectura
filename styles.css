@@ -131,9 +131,8 @@ table.prevention {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 10px;
-    table-layout: fixed; /* Controla el ancho fijo */
+    table-layout: auto; /* Controla el ancho fijo */
 }
-
 
 
 table.prevention th,
@@ -151,6 +150,7 @@ table.prevention th {
 table.prevention td:first-child {
     text-align: left;
 }
+
 /* CRITERIA */
 .criteria {
     border: 1px solid #000;
@@ -284,6 +284,7 @@ table.prevention td:first-child {
         border: none;
     }
 }
+
 
 
 
