@@ -150,9 +150,6 @@ table.prevention th {
     font-weight: bold;
 }
 
-table.prevention td:first-child {
-    text-align: left;
-}
 
 /* CRITERIA */
 .criteria {
@@ -287,6 +284,7 @@ table.prevention td:first-child {
         border: none;
     }
 }
+
 
 
 
